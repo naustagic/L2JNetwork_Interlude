@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+   <npc id="31688">
+       <appearance name="Olympiad" name_color="FFFFFF" title="Olympiad Manager" title_color="FF9900" radius="9" height="22" race="0" sex="0" class="88" hair_style="0" hair_color="3" face="0" hero="1" enchant="16" />
+       <items right_hand="6580" left_hand="0" chest="6373" legs="6374" gloves="6375" feet="6376" hair="8565" hair2="0" />
+       <clan clan_id="0" clan_crest="0" ally_id="0" ally_crest="0" pledge="0" />
+   </npc>
+   <npc id="50008">
+       <appearance name="AIO BUFFER" name_color="FFFFFF" title="Supporter" title_color="FF9900" radius="9" height="19" race="0" sex="2" class="117" hair_style="0" hair_color="3" face="0" hero="0" enchant="16" />
+       <items right_hand="6579" left_hand="6377" chest="2407" legs="0" gloves="5767" feet="5779" hair="8563" hair2="0" />
+       <clan clan_id="0" clan_crest="0" ally_id="0" ally_crest="0" pledge="0" />
+   </npc>
+   <npc id="50021">
+       <appearance name="Klaus" name_color="FFFFFF" title="Augmenter" title_color="FF9900" radius="9" height="18" race="4" sex="0" class="117" hair_style="0" hair_color="3" face="0" hero="0" enchant="16" />
+       <items right_hand="81" left_hand="0" chest="6408" legs="0" gloves="0" feet="0" hair="8922" hair2="0" />
+       <clan clan_id="0" clan_crest="0" ally_id="0" ally_crest="0" pledge="0" />
+   </npc>
+   <npc id="50018">
+       <appearance name="Elijah" name_color="FFFFFF" title="Party Teleporter" title_color="FF9900" radius="9" height="27" race="3" sex="0" class="115" hair_style="0" hair_color="3" face="0" hero="0" enchant="16" />
+       <items right_hand="0" left_hand="0" chest="6408" legs="0" gloves="0" feet="0" hair="8922" hair2="0" />
+       <clan clan_id="0" clan_crest="0" ally_id="0" ally_crest="0" pledge="0" />
+   </npc>
+   <npc id="50019">
+       <appearance name="Angela" name_color="FFFFFF" title="Clan Manager" title_color="FF9900" radius="9" height="23" race="2" sex="2" class="107" hair_style="0" hair_color="3" face="0" hero="0" enchant="15" />
+       <items right_hand="5233" left_hand="0" chest="6408" legs="0" gloves="0" feet="0" hair="8910" hair2="0" />
+       <clan clan_id="0" clan_crest="0" ally_id="0" ally_crest="0" pledge="0" />
+   </npc>
+   <npc id="50091">
+       <appearance name="MULTI SHOP" name_color="FFFFFF" title="L2jNetwork.com" title_color="FF9900" radius="9" height="23" race="1" sex="2" class="27" hair_style="0" hair_color="2" face="0" hero="0" enchant="16" />
+       <items right_hand="343" left_hand="0" chest="2408" legs="0" gloves="2479" feet="2440" hair="8569" hair2="0" />
+       <clan clan_id="0" clan_crest="0" ally_id="0" ally_crest="0" pledge="0" />
+   </npc>
+</list>

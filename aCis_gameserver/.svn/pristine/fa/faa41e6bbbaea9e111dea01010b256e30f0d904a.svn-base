@@ -1,0 +1,125 @@
+package net.sf.l2j.gameserver.model.actor.instance;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+import net.sf.l2j.L2DatabaseFactory;
+import net.sf.l2j.gameserver.model.actor.Npc;
+import net.sf.l2j.gameserver.model.actor.template.NpcTemplate;
+import net.sf.l2j.gameserver.network.SystemMessageId;
+import net.sf.l2j.gameserver.network.serverpackets.ActionFailed;
+import net.sf.l2j.gameserver.network.serverpackets.EnchantResult;
+import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
+
+public class RakingNpc extends Npc
+{
+	public RakingNpc(int objectId, NpcTemplate template)
+	{
+		super(objectId, template);
+	}
+	
+	@Override
+	public void onBypassFeedback(Player player, String command)
+	{
+		if (player.isProcessingTransaction())
+		{
+			player.sendPacket(SystemMessageId.ALREADY_TRADING);
+			return;
+		}
+		
+		if (player.getActiveEnchantItem() != null)
+		{
+			player.setActiveEnchantItem(null);
+			player.sendPacket(EnchantResult.CANCELLED);
+			player.sendPacket(SystemMessageId.ENCHANT_SCROLL_CANCELLED);
+		}
+		
+		else if (command.startsWith("topPvp"))
+		{
+			NpcHtmlMessage htm = new NpcHtmlMessage(0);
+			StringBuilder sb = new StringBuilder("<html><body>");
+			sb.append("<center><br>Top 15 PvP:<br><br1>");
+			try (Connection con = L2DatabaseFactory.getInstance().getConnection())
+			{
+				PreparedStatement stm = con.prepareStatement("SELECT char_name,pvpkills,accesslevel,online FROM characters ORDER BY pvpkills DESC LIMIT 15");
+				ResultSet rSet = stm.executeQuery();
+				while (rSet.next())
+				{
+					int accessLevel = rSet.getInt("accesslevel");
+					if (accessLevel > 0)
+					{
+						continue;
+					}
+					int pvpKills = rSet.getInt("pvpkills");
+					if (pvpKills == 0)
+					{
+						continue;
+					}
+					String pl = rSet.getString("char_name");
+					int online = rSet.getInt("online");
+					String status = online == 1 ? "<font color=\"00FF00\">Online</font>" : "<font color=\"FF0000\">Offline</font>";
+					sb.append("Player: <font color=\"LEVEL\">" + pl + "</font> PvPs: <font color=\"LEVEL\">" + pvpKills + "</font> Status: <font color=\"LEVEL\">" + status + "</font><br1>");
+				}
+			}
+			catch (Exception e)
+			{
+				System.out.println("Error while selecting top 15 pvp from database.");
+			}
+			
+			sb.append("</body></html>");
+			htm.setHtml(sb.toString());
+			player.sendPacket(htm);
+		}
+		else if (command.startsWith("topPk"))
+		{
+			NpcHtmlMessage htm = new NpcHtmlMessage(0);
+			StringBuilder sb = new StringBuilder("<html><body>");
+			sb.append("<center><br>Top 15 PK:<br><br1>");
+			try (Connection con = L2DatabaseFactory.getInstance().getConnection())
+			{
+				PreparedStatement stm = con.prepareStatement("SELECT char_name,pkkills,accesslevel,online FROM characters ORDER BY pkkills DESC LIMIT 15");
+				ResultSet rSet = stm.executeQuery();
+				while (rSet.next())
+				{
+					int accessLevel = rSet.getInt("accesslevel");
+					if (accessLevel > 0)
+					{
+						continue;
+					}
+					int pkKills = rSet.getInt("pkkills");
+					if (pkKills == 0)
+					{
+						continue;
+					}
+					String pl = rSet.getString("char_name");
+					int online = rSet.getInt("online");
+					String status = online == 1 ? "<font color=\"00FF00\">Online</font>" : "<font color=\"FF0000\">Offline</font>";
+					sb.append("Player: <font color=\"LEVEL\">" + pl + "</font> PKs: <font color=\"LEVEL\">" + pkKills + "</font> Status: <font color=\"LEVEL\">" + status + "</font><br1>");
+				}
+			}
+			catch (Exception e)
+			{
+				System.out.println("Error while selecting top 15 pk from database.");
+			}
+			sb.append("</body></html>");
+			htm.setHtml(sb.toString());
+			player.sendPacket(htm);
+		}
+	}
+	
+	@Override
+	public void showChatWindow(Player player, int val)
+	{
+		player.sendPacket(ActionFailed.STATIC_PACKET);
+		String filename = "data/html/npc/ranking-no.htm";
+		
+		filename = "data/html/npc/ranking.htm";
+		
+		NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
+		html.setFile(filename);
+		html.replace("%objectId%", String.valueOf(getObjectId()));
+		html.replace("%playerName%", player.getName());
+		player.sendPacket(html);
+	}
+}

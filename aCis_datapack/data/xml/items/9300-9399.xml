@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list>
+	<item id="9990" type="EtcItem" name="Donate Ticket">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="9991" type="EtcItem" name="Vote Coin">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="9992" type="EtcItem" name="Noblesse Item">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="NobleItem"/>
+	</item>
+	<item id="9993" type="EtcItem" name="Hero Coin">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="HeroItem"/>
+	</item>
+	<item id="9994" type="EtcItem" name="Event Apiga">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="9995" type="EtcItem" name="Clan Reputation Item">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="ClanItem"/>
+	</item>
+	<item id="9996" type="EtcItem" name="PvP Item">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="9997" type="EtcItem" name="Farm Stone">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+	<item id="9998" type="EtcItem" name="VIP Coin">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+		<set name="handler" val="VipItem"/>
+	</item>
+	<item id="9999" type="EtcItem" name="Gold Coin">
+		<set name="material" val="PAPER" />
+		<set name="price" val="10000" />
+		<set name="is_stackable" val="true" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="false" />
+	</item>
+</list>

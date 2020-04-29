@@ -1,0 +1,23 @@
+<html><title>Raidboss Status</title><body>
+
+<br>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 height=27 bgcolor="000000">
+	<tr>
+	<td align=center width=300>
+<font color=a2a0a2>Welcome buddy!
+<br1>Here's the list of all current Raidbosses!</font>
+</td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+
+<br>
+<img src=L2UI.SquareGray width=300 height=1>
+<table width=300 height=27 bgcolor="000000">
+	<tr>
+	<td align=center width=300>%bosslist%</td>
+	</tr>
+</table>
+<img src=L2UI.SquareGray width=300 height=1>
+</body></html>

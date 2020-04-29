@@ -1,0 +1,168 @@
+/*
+ * This program is free software: you can redistribute it and/or modify it under
+ * the terms of the GNU General Public License as published by the Free Software
+ * Foundation, either version 3 of the License, or (at your option) any later
+ * version.
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ * 
+ * You should have received a copy of the GNU General Public License along with
+ * this program. If not, see <http://www.gnu.org/licenses/>.
+ */
+package net.sf.l2j.gameserver.handler.voicedcommandhandlers;
+
+import java.text.SimpleDateFormat;
+
+import net.sf.l2j.Config;
+import net.sf.l2j.gameserver.data.NpcTable;
+import net.sf.l2j.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2j.gameserver.instancemanager.GrandBossManager;
+import net.sf.l2j.gameserver.instancemanager.RaidBossSpawnManager;
+import net.sf.l2j.gameserver.model.actor.instance.Player;
+import net.sf.l2j.gameserver.network.serverpackets.NpcHtmlMessage;
+import net.sf.l2j.gameserver.templates.StatsSet;
+
+/**
+ * @author Baggos
+ */
+public class GrandBossStatus implements IVoicedCommandHandler
+{
+	
+	private static final String[] _voicedCommands =
+	{
+		"epic"
+	};
+	
+	private static final int[] RBOSSES =
+	{
+		51006 // Zaken
+	};
+	
+	private static final int[] GRAND =
+	{
+		29001, // Queen Ant
+		29006, // Core
+		29014 // Orfen
+	};
+	
+	private static final int[] GRAND2 =
+	{
+		29019, // Antharas
+		29028, // Valakas
+		29047 // Halisha
+	};
+	
+	private static final int BAIUM = 29020;
+	
+	@Override
+	public boolean useVoicedCommand(String command, Player activeChar, String params)
+	{
+		if (command.equals("epic") && Config.EPIC_INFO)
+		{
+			final StringBuilder sb = new StringBuilder();
+			NpcHtmlMessage html = new NpcHtmlMessage(0);
+			for (int rboss : RBOSSES)
+			{
+				String name = NpcTable.getInstance().getTemplate(rboss).getName();
+				long delay = RaidBossSpawnManager.getInstance().getRespawntime(rboss);
+				sb.append("<html><head><title>Epic Boss Manager</title></head><body>");
+				sb.append("<center>");
+				sb.append("<img src=\"L2UI.SquareGray\" width=300 height=1><br>");
+				
+				if (delay <= System.currentTimeMillis())
+				{
+					sb.append("" + name + ":&nbsp;<font color=\"4d94ff\">Is Alive!</font><br1>");
+				}
+				else
+				{
+					sb.append("" + name + ":&nbsp;<br1>");
+					sb.append("&nbsp;<font color=\"FFFFFF\">" + " " + "Respawn at:</font>" + "" + "<font color=\"FF9900\"> " + new SimpleDateFormat("dd-MM-yyyy HH:mm").format(delay) + "</font><br>");
+				}
+			}
+			
+			// Case of Queen/Core/Orfen
+			for (int rboss : GRAND)
+			{
+				StatsSet info = GrandBossManager.getInstance().getStatsSet(rboss);
+				long temp = info.getLong("respawn_time");
+				String Grand = NpcTable.getInstance().getTemplate(rboss).getName();
+				
+				sb.append("<center>");
+				sb.append("<img src=\"L2UI.SquareGray\" width=300 height=1><br>");
+				if (temp <= System.currentTimeMillis())
+				{
+					sb.append("" + Grand + ":&nbsp;<font color=\"4d94ff\">Is Alive!</font><br1>");
+				}
+				else
+				{
+					sb.append("" + Grand + ":&nbsp;<br1>");
+					sb.append("&nbsp;<font color=\"FFFFFF\">" + " " + "Respawn at:</font>" + "" + "<font color=\"FF9900\"> " + new SimpleDateFormat("dd-MM-yyyy HH:mm").format(temp) + "</font><br>");
+				}
+			}
+			
+			// Case of Baium
+			StatsSet infobaium = GrandBossManager.getInstance().getStatsSet(BAIUM);
+			long tempbaium = infobaium.getLong("respawn_time");
+			String Baium = NpcTable.getInstance().getTemplate(BAIUM).getName();
+			int BaiumStatus = GrandBossManager.getInstance().getBossStatus(BAIUM);
+			
+			sb.append("<center>");
+			sb.append("<img src=\"L2UI.SquareGray\" width=300 height=1><br>");
+			if (tempbaium <= System.currentTimeMillis() && BaiumStatus == 0)
+			{
+				sb.append("" + Baium + ":&nbsp;<font color=\"ff4d4d\">Is Asleep!</font><br1>");
+			}
+			else if (BaiumStatus == 1)
+			{
+				sb.append("" + Baium + ":&nbsp;<font color=\"ff4d4d\">Is Awake and fighting. Entry is locked.</font><br1>");
+			}
+			else
+			{
+				sb.append("" + Baium + ":&nbsp;<br1>");
+				sb.append("&nbsp;<font color=\"FFFFFF\">" + " " + "Respawn at:</font>" + "" + "<font color=\"FF9900\"> " + new SimpleDateFormat("dd-MM-yyyy HH:mm").format(tempbaium) + "</font><br>");
+			}
+			
+			// Case of Antharas/Valakas/Halisha
+			for (int rboss : GRAND2)
+			{
+				StatsSet infogrand = GrandBossManager.getInstance().getStatsSet(rboss);
+				long tempgrand = infogrand.getLong("respawn_time");
+				String Grand = NpcTable.getInstance().getTemplate(rboss).getName();
+				int BossStatus = GrandBossManager.getInstance().getBossStatus(rboss);
+				
+				sb.append("<center>");
+				sb.append("<img src=\"L2UI.SquareGray\" width=300 height=1><br>");
+				if (tempgrand <= System.currentTimeMillis() && BossStatus == 0)
+				{
+					sb.append("" + Grand + ":&nbsp;<font color=\"4d94ff\">Is spawned. Entry is unlocked.</font><br1>");
+				}
+				else if (BossStatus == 1)
+				{
+					sb.append("" + Grand + ":&nbsp;<font color=\"ff4d4d\">Someone has entered. Hurry!</font><br1>");
+				}
+				else if (BossStatus == 2)
+				{
+					sb.append("" + Grand + ":&nbsp;<font color=\"ff4d4d\">Is engaged in battle. Entry is locked.</font><br1>");
+				}
+				else
+				{
+					sb.append("" + Grand + ":&nbsp;<br1>");
+					sb.append("&nbsp;<font color=\"FFFFFF\">" + " " + "Respawn at:</font>" + "" + "<font color=\"FF9900\"> " + new SimpleDateFormat("dd-MM-yyyy HH:mm").format(tempgrand) + "</font><br>");
+				}
+			}
+			html.setHtml(sb.toString());
+			html.replace("%bosslist%", sb.toString());
+			activeChar.sendPacket(html);
+		}
+		return true;
+	}
+	
+	@Override
+	public String[] getVoicedCommandList()
+	{
+		return _voicedCommands;
+	}
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<!-- Core settings -->
+	<event id="0">
+		<property name="registerTime" value="300" />
+		<property name="betweenEventsTime" value="3600" />
+		<property name="firstAfterStartTime" value="3600" />
+		<property name="managerNpcId" value="60016" />
+		<property name="showVotePopupAt" value="300" />
+		<property name="votePopupEnabled" value="true" />
+		<property name="debug" value="false" />
+		<property name="statTrackingEnabled" value="true" />
+		<property name="eventBufferEnabled" value="false" />
+		<property name="allowedBuffsList" value="264,266,267,268,269,270,271,272,273,274,275,276,277,304,305,306,307,308,309,310,349,363,364,365,1035,1036,1040,1043,1045,1048,1059,1062,1068,1077,1078,1085,1086,1087,1182,1189,1191,1204,1240,1242,1243,1259,1268,1284,1303,1304,1352,1353,1354,1355,1356,1357,1363,1388,1389,1392,1393,1397,1413,265,1044" />
+		<property name="maxBuffNum" value="24" />
+		<property name="dualboxAllowed" value="true" />
+		<property name="antiAfkTime" value="0" /> <!-- 0 to disable -->
+		<property name="antiAfkDisallowAfter" value="3" />
+		<property name="antiAfkDisallowTime" value="43200" />
+		<property name="siteUrl" value="www.l2jnetwork.com" />
+		<restriction type="disabledEvents" ids="" />
+		<restriction type="item" ids="6611,6612,6613,6614,6615,6616,6617,6618,6619,6620,6621" />
+		<restriction type="skill" ids="1374,1375,1376,395,396" />
+	</event>
+	<!-- DeathMatch -->
+	<event id="1">
+		<property name="minLvl" value="76" />
+		<property name="maxLvl" value="80" />
+		<property name="eventName" value="Deathmatch" />
+		<property name="ids" value="1" />
+		<property name="matchTime" value="240" />
+		<property name="rewardId" value="6392" />
+		<property name="rewardAmmount" value="5" />
+		<property name="allowPotions" value="false" />
+		<property name="allowUseMagic" value="true" />
+		<property name="removeBuffs" value="false" />
+		<property name="minPlayers" value="2" />
+		<color owner="All" r="255" g="255" b="255"/>
+		<position owner="All" x="106037" y="114816" z="-1560" radius="700" />
+		<restriction type="item" ids="" />
+		<restriction type="skill" ids="" />
+	</event>
+	<!-- Team vs Team -->
+	<event id="2">
+		<property name="minLvl" value="76" />
+		<property name="maxLvl" value="80" />
+		<property name="eventName" value="Team vs Team" />
+		<property name="ids" value="2" />
+		<property name="matchTime" value="240" />
+		<property name="rewardId" value="6392" />
+		<property name="rewardAmmount" value="5" />
+		<property name="allowPotions" value="false" />
+		<property name="allowUseMagic" value="true" />
+		<property name="removeBuffs" value="false" />
+		<property name="minPlayers" value="2" />
+		<color owner="Blue" r="0" g="0" b="255"/>
+		<color owner="Red" r="255" g="0" b="0"/>
+    	<position owner="Blue" x="106679" y="116319" z="-1587" radius="50" />
+    	<position owner="Red" x="105914" y="113368" z="-1587" radius="50" />
+		<restriction type="item" ids="" />
+		<restriction type="skill" ids="" />
+	</event>
+	<!-- Capture the Flag -->
+	<event id="3">
+		<property name="minLvl" value="76" />
+		<property name="maxLvl" value="80" />
+		<property name="eventName" value="Capture the Flag" />
+		<property name="ids" value="3" />
+		<property name="matchTime" value="240" />
+		<property name="rewardId" value="6392" />
+		<property name="rewardAmmount" value="5" />
+		<property name="allowPotions" value="false" />
+		<property name="allowUseMagic" value="true" />
+		<property name="removeBuffs" value="false" />
+		<property name="minPlayers" value="2" />
+		<property name="blueFlagId" value="9104" />
+		<property name="redFlagId" value="9105" />
+		<property name="blueFlagHolderId" value="9106" />
+		<property name="redFlagHolderId" value="9107" />
+		<color owner="Blue" r="0" g="0" b="255"/>
+		<color owner="Red" r="255" g="0" b="0"/>
+    	<position owner="Blue" x="106679" y="116319" z="-1587" radius="50" />
+		<position owner="BlueFlag" x="106391" y="116331" z="-1587" radius="0" />
+    	<position owner="Red" x="105914" y="113368" z="-1587" radius="50" />
+		<position owner="RedFlag" x="105696" y="113522" z="-1587" radius="0" />
+		<restriction type="item" ids="" />
+		<restriction type="skill" ids="" />
+	</event>
+	<!-- Last Man Standing -->
+	<event id="4">
+		<property name="minLvl" value="76" />
+		<property name="maxLvl" value="80" />
+		<property name="eventName" value="Last Man Standing" />
+		<property name="ids" value="4" />
+		<property name="matchTime" value="240" />
+		<property name="rewardId" value="6392" />
+		<property name="rewardAmmount" value="5" />
+		<property name="allowPotions" value="false" />
+		<property name="allowUseMagic" value="true" />
+		<property name="removeBuffs" value="false" />
+		<property name="minPlayers" value="2" />
+		<color owner="All" r="255" g="255" b="255"/>
+    	<position owner="All" x="106037" y="114816" z="-1560" radius="700" />
+		<restriction type="item" ids="" />
+		<restriction type="skill" ids="" />
+	</event>
+	<!-- Lucky Chests -->
+	<event id="5">
+		<property name="minLvl" value="40" />
+		<property name="maxLvl" value="80" />
+		<property name="eventName" value="Lucky Chests" />
+		<property name="ids" value="5" />
+		<property name="matchTime" value="240" />
+		<property name="rewardId" value="6392" />
+		<property name="rewardAmmount" value="5" />
+		<property name="allowPotions" value="false" />
+		<property name="allowUseMagic" value="false" />
+		<property name="removeBuffs" value="true" />
+		<property name="minPlayers" value="2" />
+		<property name="chestNpcId" value="9102" />
+		<property name="numberOfChests" value="300" />
+		<property name="rewardOnOpen" value="true" />
+		<color owner="All" r="255" g="255" b="255"/>
+    	<position owner="All" x="106037" y="114816" z="-1560" radius="100" />
+		<position owner="Chests" x="106037" y="114816" z="-1560" radius="700" />
+		<restriction type="item" ids="" />
+		<restriction type="skill" ids="" />
+	</event>
+</events>

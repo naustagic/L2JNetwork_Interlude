@@ -1,0 +1,61 @@
+<html>
+<title>
+Active Skills - 1
+</title>
+<body>
+
+<br>
+<center>
+<table>
+<tr>
+    <td width=32 height=34><img src=icon.etc_alphabet_a_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_u_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_g_i00 width=32 height=32 align=center></td>
+ <td><img src="icon.etc_m_i00" width=32 height=32></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_e_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_n_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_t_i00 width=32 height=32 align=center></td>
+
+</tr>
+</table>
+</center>
+<br><br>
+<font color="FF0000">3123</font> 10 <font color="LEVEL">Item Skill</font>: Heal <font color="00ffff">Active</font><br1>
+<font color="FF0000">3124</font> 10 <font color="LEVEL">Item Skill</font>: Blessed Body <font color="00ffff">Active</font><br1>
+<font color="FF0000">3125</font> 10 <font color="LEVEL">Item Skill</font>: Battle Roar <font color="00ffff">Active</font><br1>
+<font color="FF0000">3126</font> 10 <font color="LEVEL">Item Skill</font>: Prayer <font color="00ffff">Active</font><br1>
+<font color="FF0000">3127</font> 10 <font color="LEVEL">Item Skill</font>: Recharge <font color="00ffff">Active</font><br1>
+<font color="FF0000">3128</font> 10 <font color="LEVEL">Item Skill</font>: Blessed Soul <font color="00ffff">Active</font><br1>
+<font color="FF0000">3129</font> 10 <font color="LEVEL">Item Skill</font>: Mana Gain <font color="00ffff">Active</font><br1>
+<font color="FF0000">3130</font> 10 <font color="LEVEL">Item Skill</font>: Ritual <font color="00ffff">Active</font><br1>
+<font color="FF0000">3131</font> 10 <font color="LEVEL">Item Skill</font>: Cheer <font color="00ffff">Active</font><br1>
+<font color="FF0000">3132</font> 10 <font color="LEVEL">Item Skill</font>: Might <font color="00ffff">Active</font><br1>
+<font color="FF0000">3133</font> 10 <font color="LEVEL">Item Skill</font>: Empower <font color="00ffff">Active</font><br1>
+<font color="FF0000">3134</font> 10 <font color="LEVEL">Item Skill</font>: Duel Might <font color="00ffff">Active</font><br1>
+<font color="FF0000">3135</font> 10 <font color="LEVEL">Item Skill</font>: Shield <font color="00ffff">Active</font><br1>
+<font color="FF0000">3136</font> 10 <font color="LEVEL">Item Skill</font>: Magic Barrier <font color="00ffff">Active</font><br1>
+<font color="FF0000">3138</font> 10 <font color="LEVEL">Item Skill</font>: Heal Empower <font color="00ffff">Active</font><br1>
+<font color="FF0000">3139</font> 10 <font color="LEVEL">Item Skill</font>: Agility <font color="00ffff">Active</font><br1>
+<font color="FF0000">3140</font> 10 <font color="LEVEL">Item Skill</font>: Guidance <font color="00ffff">Active</font><br1>
+<font color="FF0000">3141</font> 10 <font color="LEVEL">Item Skill</font>: Focus <font color="00ffff">Active</font><br1>
+<font color="FF0000">3142</font> 10 <font color="LEVEL">Item Skill</font>: Wild Magic <font color="00ffff">Active</font><br1>
+<font color="FF0000">3143</font> 10 <font color="LEVEL">Item Skill</font>: Kiss of Eva <font color="00ffff">Active</font><br1>
+<font color="FF0000">3144</font> 10 <font color="LEVEL">Item Skill</font>: Acrobatics <font color="00ffff">Active</font><br1>
+<font color="FF0000">3145</font> 10 <font color="LEVEL">Item Skill</font>: Iron Body <font color="00ffff">Active</font><br1>
+<font color="FF0000">3148</font> 10 <font color="LEVEL">Item Skill</font>: Vampiric Rage <font color="00ffff">Active</font><br1>
+<font color="FF0000">3137</font> 10 <font color="LEVEL">Item Skill</font>: Duel Weakness <font color="00ffff">Active</font><br1>
+<font color="FF0000">3149</font> 10 <font color="LEVEL">Item Skill</font>: Aggression <font color="00ffff">Active</font><br1>
+<font color="FF0000">3150</font> 10 <font color="LEVEL">Item Skill</font>: Charm <font color="00ffff">Active</font><br1>
+<font color="FF0000">3151</font> 10 <font color="LEVEL">Item Skill</font>: Peace <font color="00ffff">Active</font><br1>
+<font color="FF0000">3152</font> 10 <font color="LEVEL">Item Skill</font>: Trick <font color="00ffff">Active</font><br1>
+<font color="FF0000">3153</font> 10 <font color="LEVEL">Item Skill</font>: Vampiric Touch <font color="00ffff">Active</font><br1>
+<font color="FF0000">3154</font> 10 <font color="LEVEL">Item Skill</font>: Mana Burn <font color="00ffff">Active</font><br1>
+<font color="FF0000">3155</font> 10 <font color="LEVEL">Item Skill</font>: Unlock <font color="00ffff">Active</font><br1>
+<font color="FF0000">3156</font> 1 <font color="LEVEL">Item Skill</font>: Firework <font color="00ffff">Active</font><br1>
+<font color="FF0000">3157</font> 1 <font color="LEVEL">Item Skill</font>: Large Firework <font color="00ffff">Active</font><br1>
+<font color="FF0000">3158</font> 1 <font color="LEVEL">Item Skill</font>: Celestial Shield <font color="00ffff">Active</font><br1>
+<center><a action="bypass -h admin_help augactive2.htm">Page 2</a></center><br1>
+<center><a action="bypass -h admin_help augskillsinfo.htm">Back</a></center>
+</center>
+</body>
+</html>

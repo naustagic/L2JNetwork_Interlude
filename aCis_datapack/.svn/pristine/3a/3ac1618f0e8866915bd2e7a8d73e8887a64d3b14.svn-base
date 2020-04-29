@@ -1,0 +1,66 @@
+<html><body>
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=200 height=50>
+Hello! Isn't it a beautiful day?<br>
+Would you like to have a symbol made?<br>
+Have you brought dye?<br>
+Symbols are not easily made!<br>
+You must be certain of what you want before we begin! This is an expensive project and you cannot afford any false starts!<br>
+Although expensive, if you choose well, your symbol will be a good investment for you, as valuable as an excellent sword or shield!<br1>
+</td>
+</tr>
+</table>
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=icon.etc_con_hena_i02 width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Draw a symbol</font><br1>
+<font color=F2F5A9>Add symbols or dyes to your character.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_Draw" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=icon.etc_int_hena_i02 width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Delete a Symbol.</font><br1>
+<font color=F2F5A9>Delete your current symbols or dyes.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_RemoveList" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=icon.etc_wit_hena_i02 width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Tell me more about symbols and dyes.</font><br1>
+<font color=F2F5A9>Learn more about symbols and dyes.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_Link symbolmaker/SymbolMaker-1.htm" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+</body></html>

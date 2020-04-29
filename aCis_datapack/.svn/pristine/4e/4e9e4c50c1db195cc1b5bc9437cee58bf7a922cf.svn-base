@@ -1,0 +1,72 @@
+<html><body>
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=200 height=50>
+
+Augmenter Yelena:<br>
+Welcome! How can I help you? Go ahead, ask me anything, I'm a 3rd generation blacksmith and a proud Dwarf. You won't find a Dwarf in these parts with a better haircut, on that I'll stake my shop! I'm also a master of my profession, if I do say so myself. So don't be shy -- ask away!<br><br>
+</td>
+</tr>
+</table>
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=L2UI.Crystalize_active width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Augment Item</font><br1>
+<font color=F2F5A9>Augment your current weapon.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_Augment 1" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=L2UI.DestroyItem_active width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Remove Augmentation</font><br1>
+<font color=F2F5A9>Remove the augmentation of your weapon.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_Augment 2" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=icon.etc_bead_silver_i00 width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Buy Minerals</font><br1>
+<font color=F2F5A9>Buy all grade Gemstones.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_multisell 50020" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=200 height=78>
+</td>
+</tr>
+</table>
+</body></html>

@@ -1,0 +1,41 @@
+<html><body>
+<br>
+<br>
+<center><img src=L2UI.SquareGray width=250 height=2></center>
+<td><img src="L2UI.SquareBlank" width=40 height=2></td>
+<center><img src="L2UI.SquareGray" width=300 height=2></center>
+<table bgcolor=000000 width=300>
+<tr>
+<td align=center><font color="00ff80">L2 jNetowrk</font></td>
+</tr>
+<tr>
+<td align=center><font color="0070fa">Are you feel lucky today?<br1>I wish you good luck!</font></td>
+</tr>
+</table>
+<center><img src=L2UI.SquareGray width=300 height=2></center>
+<td><img src="L2UI.SquareBlank" width=40 height=2></td>
+<center><img src="L2UI.SquareGray" width=250 height=2></center>
+<br>
+<table width=300 bgcolor=000000>
+<tr>
+<td>
+<button action="bypass -h npc_%objectId%_Augment 1" width=300 height=40 fore="ssL2jNetwork.aug" back="ssL2jNetwork.aug">
+</td>
+</tr>
+<tr>
+<td>
+<button action="bypass -h npc_%objectId%_Augment 2" width=300 height=40 fore="ssL2jNetwork.raug" back="ssL2jNetwork.raug">
+</td>
+</tr>
+<tr>
+<td>
+<button action="bypass -h npc_%objectId%_multisell 50020" width=300 height=40 fore="ssL2jNetwork.mineral" back="ssL2jNetwork.mineral">
+</td>
+</tr>
+<tr>
+<td>
+<button action="bypass -h npc_%objectId%_Chat 0" width=300 height=40 fore="ssL2jNetwork.none_down" back="ssL2jNetwork.none">
+</td>
+</tr>
+</table>
+</body></html>

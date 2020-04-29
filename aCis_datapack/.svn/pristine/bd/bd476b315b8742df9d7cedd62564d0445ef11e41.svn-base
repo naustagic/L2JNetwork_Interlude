@@ -1,0 +1,17 @@
+<html><body>
+<center>
+<table>
+<tr><td align=center><font color="LEVEL">Castle Manager</font></td></tr>
+<tr><td height=10></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_giran" value="Giran Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_aden" value="Aden Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_rune" value="Rune Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_oren" value="Oren Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_dion" value="Dion Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_gludio" value="Gludio Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_goddard" value="Goddard Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_schuttgart" value="Schuttgart Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+<tr><td><button action="bypass -h npc_%objectId%_siege_innadril" value="Innadril Castle" width=250 height=30 back="L2UI_CH3.refinegrade3_21" fore="L2UI_CH3.refinegrade3_21"></td></tr>
+</table>
+</center>
+</body></html>

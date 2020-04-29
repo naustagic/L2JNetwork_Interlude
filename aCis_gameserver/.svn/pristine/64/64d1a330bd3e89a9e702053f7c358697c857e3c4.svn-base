@@ -1,0 +1,31 @@
+#=============================================================
+#                          Limits
+#=============================================================
+# Olympiad PvP Kills Limits, Enabled.
+# If Enable, players with pvp kills less than "x" can't join olympiad.
+PvPKillsOlympiadLimits = True
+PvPKills = 10
+
+# Players with level less than "x" can't use Chat or Global or Trade Chat.
+ChatLevel = 40
+GlobalChatLevel = 40
+TradeChatLevel = 40
+
+# Enable Emotions Chat System
+EmotionChatSystem = True
+# Word,SocialActionId;
+EmotionChat = hello,2;hey,2;aloha,2;allo,2;holla,2;hola,2;hi,2;bye,2;lol,10;haha,10;xaxa,10;xaxaxa,10;yes,6;si,6;nope,5;no,5;
+
+# Restriction words on chat. Words will be replalced with (****).
+ChatRestrictionWords = True
+ChatRestrictionWordsList = l2damage;fuck;
+
+#=============================================================
+#                        Karma & PvP
+#=============================================================
+KarmaFlagPlayerCanUseBuffer = False
+
+# ExpertisePenality, to disable grade penalty
+# False: Players can use equip S grade at level 1.
+# True: Players can't use equip S grade at level 1.
+ExpertisePenalty = True

@@ -1,0 +1,48 @@
+<html>
+<title>
+Passive Skills
+</title>
+<body>
+
+<br>
+<center>
+<table>
+<tr>
+    <td width=32 height=34><img src=icon.etc_alphabet_a_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_u_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_g_i00 width=32 height=32 align=center></td>
+ <td><img src="icon.etc_m_i00" width=32 height=32></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_e_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_n_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_t_i00 width=32 height=32 align=center></td>
+</tr>
+</table>
+</center>
+<br><br>
+<font color="FF0000">3238</font></font> 10 <font color="LEVEL">Item Skill</font>: Prayer <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3239</font> 10 <font color="LEVEL">Item Skill</font>: Mana Gain <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3240</font> 10 <font color="LEVEL">Item Skill</font>: Might <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3241</font> 10 <font color="LEVEL">Item Skill</font>: Empower <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3243</font> 10 <font color="LEVEL">Item Skill</font>: Duel Might <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3244</font> 10 <font color="LEVEL">Item Skill</font>: Shield <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3245</font> 10 <font color="LEVEL">Item Skill</font>: Magic Barrier <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3246</font> 10 <font color="LEVEL">Item Skill</font>: Heal Empower <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3247</font> 10 <font color="LEVEL">Item Skill</font>: Agility <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3248</font> 10 <font color="LEVEL">Item Skill</font>: Guidance <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3249</font> 10 <font color="LEVEL">Item Skill</font>: Focus <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3250</font> 10 <font color="LEVEL">Item Skill</font>: Wild Magic <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3251</font> 10 <font color="LEVEL">Item Skill</font>: Weight Limit <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3252</font> 10 <font color="LEVEL">Item Skill</font>: Kiss of Eva <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3253</font> 10 <font color="LEVEL">Item Skill</font>: Acrobatics <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3254</font> 10 <font color="LEVEL">Item Skill</font>: Iron Body <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3255</font> 3 <font color="LEVEL">Item Skill</font>: Skill Clarity <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3256</font> 3 <font color="LEVEL">Item Skill</font>: Spell Clarity <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3257</font> 3 <font color="LEVEL">Item Skill</font>: Music Clarity <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3258</font> 3 <font color="LEVEL">Item Skill</font>: Clarity <font color="00ffff">Passive</font><br1>
+<font color="FF0000">3259</font> 3 <font color="LEVEL">Item Skill</font>: Reflect Damage <font color="00ffff">Passive</font><br1>
+
+<center><a action="bypass -h admin_help augskillsinfo.htm">Back</a></center>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+<body>
+<title>Vote Manager</title>
+
+
+<center>
+<img src=L2UI.SquareWhite width=300 height=1>
+<table width=310 height=1 bgcolor=000000>
+<tr>
+<td align=center>
+<font color=F2F5A9>Welcome</font> <font color=FE642E>%charname%</font>
+</td>
+</tr>
+</table>
+<img src=L2UI.SquareWhite width=300 height=1>
+<br>
+<center>
+<img src=L2UI.SquareWhite width=300 height=1>
+<table width=310 height=1 bgcolor=000000>
+<tr>
+<td align=center>
+<font color=F2F5A9>VOTE MANAGER IS CURRENTLY</font> <font color=FF0000>OFFLINE</font>
+</td>
+</tr>
+</table>
+<img src=L2UI.SquareWhite width=300 height=1>
+
+</body>
+</html>

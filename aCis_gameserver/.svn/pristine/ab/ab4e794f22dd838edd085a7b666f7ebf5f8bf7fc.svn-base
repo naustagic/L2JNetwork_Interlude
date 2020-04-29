@@ -1,0 +1,30 @@
+package net.sf.l2j.gameserver.handler.voicedcommandhandlers;
+
+import net.sf.l2j.gameserver.events.phoenixevents.EventManager;
+import net.sf.l2j.gameserver.handler.IVoicedCommandHandler;
+import net.sf.l2j.gameserver.model.actor.instance.Player;
+
+public class EventJoin implements IVoicedCommandHandler
+{
+	private static final String[] _voicedCommands =
+	{
+		"register",
+		"unregister"
+	};
+	
+	@Override
+	public boolean useVoicedCommand(String command, Player activeChar, String target)
+	{
+		if (command.equalsIgnoreCase("register"))
+			EventManager.getInstance().registerPlayer(activeChar);
+		else if (command.equalsIgnoreCase("unregister"))
+			EventManager.getInstance().unregisterPlayer(activeChar);
+		return true;
+	}
+	
+	@Override
+	public String[] getVoicedCommandList()
+	{
+		return _voicedCommands;
+	}
+}

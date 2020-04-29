@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+EXAMPLE:
+<class id="88" blockItems="1;2;3;DAGGER;BLUNT;HEAVY" exceptionOfBlocks="-1;-1"/> 
+
+class id [the id of class]
+blockItems [you can put the ids of items OR the TYPE (Example: SWORD;DAGGER;BLUNT]
+exceptionOfBlocks [If you put on blockItems DAGGER the exceptionOfBlocks will help you to exception some daggers (ids) (-1;-1 for default)]
+-->
+<list>
+	<class id="0" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="1" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="2" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="3" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="4" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="5" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="6" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="7" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="8" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="9" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="10" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="11" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="12" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="13" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="14" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="15" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="16" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="17" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="18" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="19" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="20" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="21" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="22" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="23" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="24" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="25" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="26" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="27" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="28" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="29" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="30" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="31" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="32" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="33" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="34" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="35" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="36" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="37" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="38" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="39" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="40" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="41" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="42" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="43" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="44" blockItems="BOW" exceptionOfBlocks="-1;-1"/>
+	<class id="45" blockItems="BOW" exceptionOfBlocks="-1;-1"/>
+	<class id="46" blockItems="BOW" exceptionOfBlocks="-1;-1"/>
+	<class id="47" blockItems="BOW" exceptionOfBlocks="-1;-1"/>
+	<class id="48" blockItems="BOW" exceptionOfBlocks="-1;-1"/>
+	<class id="49" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="50" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="51" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="52" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="53" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="54" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="55" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="56" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="88" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="89" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="90" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="91" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="92" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="93" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="94" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="95" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="96" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="97" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="98" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="99" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="100" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="101" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="102" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="103" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="104" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="105" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="106" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="107" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="108" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="109" blockItems="HEAVY" exceptionOfBlocks="-1;-1"/>
+	<class id="110" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="111" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="112" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="113" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="114" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="115" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="116" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="117" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+	<class id="118" blockItems="-1" exceptionOfBlocks="-1;-1"/>
+</list>

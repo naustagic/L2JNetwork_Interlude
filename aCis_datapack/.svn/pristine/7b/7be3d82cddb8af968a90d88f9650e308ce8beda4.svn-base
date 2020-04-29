@@ -1,0 +1,23 @@
+<html>
+<title>
+Lineage 2 World
+</title>
+<body>
+<center>
+<font color="003366" align="center">___________________________________________</font>
+<img src=sm_icon.wallpaper height=90 width=256></td>
+<font color="003366" align="center">___________________________________________</font>
+<br>
+<table align=center>
+	<tr>
+<td align=center><button value="FOG" action="bypass -h npc_%objectId%_goto 10130" width=95 height=24 back="L2UI_ch3.skill_tab1" fore="L2UI_ch3.skill_tab2"></td>
+<td align=center><button value="Blazing Swamp" action="bypass -h npc_%objectId%_goto 10131" width=90 height=24 back="L2UI_ch3.skill_tab1" fore="L2UI_ch3.skill_tab2"></td>
+	</tr>
+</table>
+<br>
+<img src=L2UI_CH3.herotower_deco width=256 height=32>
+<br>
+<a action="bypass -h npc_%objectId%_Chat 0"><font color="FFF080">Back</font></a>
+</body></html>
+
+

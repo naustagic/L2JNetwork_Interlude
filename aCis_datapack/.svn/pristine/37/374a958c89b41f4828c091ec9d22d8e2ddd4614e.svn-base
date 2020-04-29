@@ -1,0 +1,36 @@
+<html>
+       <body>
+               <br>
+               <br><br><br>
+               <center>
+                       <img src="L2UI_CH3.herotower_deco" width=256 height=32>
+                       <br>
+                       <font color="AAAAAA">Character Repair Function</font><br>
+                       <img src="l2ui.squaregray" width="500" height="1"><br>
+                       <br>
+                       <table width="300" cellpadding="5">
+                               <tr>
+                                       <td width="45" valign="top" align="center"><img src="icon.skill4376" width="32" height="32"></td>
+                                       <td valign="top">Use this tool, to fix problems with your other<br1>character. Like client crashing while loading.</td>
+                               </tr>
+                       </table>
+                       <br>
+                       <img src="l2ui.SquareGray" width="300" height="1">
+                       <br>
+                       <table width="300" cellpadding="5">
+                               <tr>
+                                       <td valign="top"><font color="FF6600">Choose broken character name.</font><br1>
+                                               Choose character name, that you wish to<br1>attempt to fix. It will be moved to Floran<br1>
+                                               and removed shortcuts and keyboard<br1>configuration.</td>
+                               </tr>
+                               <tr>
+                                       <td align=center><combobox var="name" list="%acc_chars%" width="170" height="15"/></td>
+                               </tr>
+                       </table>
+                       <br>
+                       <img src="l2ui.SquareGray" width="300" height="1"><br>
+                       <button value="Repair the character" action="bypass _bbsRepair $name" width=140 height=21 back="L2UI_ch3.msnbutton_down" fore="L2UI_ch3.msnbutton">
+               </center>
+               <center><img src="l2ui.squaregray" width="500" height="1"></center><br>
+       </body>
+</html>

@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list>
+	<!-- Scrolls: Enchant Weapon -->
+	<enchant id="959" grade="S" weapon="True" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- S grade - Scrolls: Enchant Weapon -->
+	<enchant id="729" grade="A" weapon="True" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- A grade - Scrolls: Enchant Weapon -->
+	<enchant id="947" grade="B" weapon="True" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- B grade - Scrolls: Enchant Weapon -->
+	<enchant id="951" grade="C" weapon="True" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- C grade - Scrolls: Enchant Weapon -->
+	<enchant id="955" grade="D" weapon="True" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- D grade - Scrolls: Enchant Weapon -->
+	
+	<!-- Scrolls: Enchant Armor -->
+	<enchant id="960" grade="S" weapon="False" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- S grade - Scrolls: Enchant Armor -->
+	<enchant id="730" grade="A" weapon="False" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- A grade - Scrolls: Enchant Armor -->
+	<enchant id="948" grade="B" weapon="False" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- B grade - Scrolls: Enchant Armor -->
+	<enchant id="952" grade="C" weapon="False" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- C grade - Scrolls: Enchant Armor -->
+	<enchant id="956" grade="D" weapon="False" break="True" maintain="False" chance="100;100;100;95;90;85;80;75" /> <!-- D grade - Scrolls: Enchant Armor -->
+	
+	<!-- Blessed Scrolls: Enchant Weapon -->
+	<enchant id="6577" grade="S" weapon="True" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- S grade - Blessed Scrolls: Enchant Weapon -->
+	<enchant id="6569" grade="A" weapon="True" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- A grade - Blessed Scrolls: Enchant Weapon -->
+	<enchant id="6571" grade="B" weapon="True" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- B grade - Blessed Scrolls: Enchant Weapon -->
+	<enchant id="6573" grade="C" weapon="True" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- C grade - Blessed Scrolls: Enchant Weapon -->
+	<enchant id="6575" grade="D" weapon="True" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- D grade - Blessed Scrolls: Enchant Weapon -->
+	
+	<!-- Blessed Scrolls: Armor Weapon -->
+	<enchant id="6578" grade="S" weapon="False" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- S grade - Blessed Scrolls: Enchant Armor -->
+	<enchant id="6570" grade="A" weapon="False" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- A grade - Blessed Scrolls: Enchant Armor -->
+	<enchant id="6572" grade="B" weapon="False" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- B grade - Blessed Scrolls: Enchant Armor -->
+	<enchant id="6574" grade="C" weapon="False" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- C grade - Blessed Scrolls: Enchant Armor -->
+	<enchant id="6576" grade="D" weapon="False" break="False" maintain="False" chance="100;100;100;95;90;85;80;75;75" /> <!-- D grade - Blessed Scrolls: Enchant Armor -->
+	
+	<!-- Crystal Scrolls: Enchant Weapon -->
+	<enchant id="961" grade="S" weapon="True" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- S grade - Crystal Scrolls: Enchant Weapon -->
+	<enchant id="731" grade="A" weapon="True" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- A grade - Crystal Scrolls: Enchant Weapon -->
+	<enchant id="949" grade="B" weapon="True" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- B grade - Crystal Scrolls: Enchant Weapon -->
+	<enchant id="953" grade="C" weapon="True" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- C grade - Crystal Scrolls: Enchant Weapon -->
+	<enchant id="957" grade="D" weapon="True" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- D grade - Crystal Scrolls: Enchant Weapon -->
+	
+	<!-- Crystal Scrolls: Enchant Armor -->
+	<enchant id="962" grade="S" weapon="False" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- S grade - Crystal Scrolls: Enchant Weapon -->
+	<enchant id="732" grade="A" weapon="False" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- A grade - Crystal Scrolls: Enchant Weapon -->
+	<enchant id="950" grade="B" weapon="False" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- B grade - Crystal Scrolls: Enchant Weapon -->
+	<enchant id="954" grade="C" weapon="False" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- C grade - Crystal Scrolls: Enchant Weapon -->
+	<enchant id="958" grade="D" weapon="False" break="False" maintain="True" chance="100;100;100;95;90;85;80;75;75" /> <!-- D grade - Crystal Scrolls: Enchant Weapon -->
+</list>

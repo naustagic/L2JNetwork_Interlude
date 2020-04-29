@@ -1,0 +1,84 @@
+package net.sf.l2j.gameserver.instancemanager;
+
+import java.util.logging.Logger;
+
+import net.sf.l2j.commons.concurrent.ThreadPool;
+import net.sf.l2j.commons.random.Rnd;
+
+import net.sf.l2j.Config;
+import net.sf.l2j.gameserver.model.World;
+import net.sf.l2j.gameserver.model.actor.instance.Player;
+import net.sf.l2j.gameserver.model.location.Location;
+import net.sf.l2j.gameserver.model.zone.ZoneId;
+import net.sf.l2j.gameserver.util.Broadcast;
+
+public class ZoneRandom implements Runnable
+{
+	private static final Logger _log = Logger.getLogger(ZoneRandom.class.getName());
+	
+	public int ZONETIME = Config.ZONE_TIME;
+	public int RANGESPAWN = Config.RANGE_SPAWN;
+	public Location CURRENT_ZONE = null;
+	
+	public int ZONES[][] =
+	{
+		{
+			84648,
+			-17368,
+			-1848
+		},
+		{
+			84648,
+			-17368,
+			-1848
+		}
+	};
+	
+	public ZoneRandom()
+	{
+		_log.info("ZoneRandom: Loading zones...");
+		
+		ThreadPool.scheduleAtFixedRate(this, 0, ZONETIME * 1000 * 60);
+	}
+	
+	@Override
+	public void run()
+	{
+		Location location = getRandomZone();
+		
+		for (Player player : World.getInstance().getPlayers())
+		{
+			if (player.isInsideZone(ZoneId.RANDOM_PVP_ZONE))
+			{
+				// Randomize location position.
+				int getX = location.getX() + Rnd.get(-RANGESPAWN, RANGESPAWN);
+				int getY = location.getY() + Rnd.get(-RANGESPAWN, RANGESPAWN);
+				
+				player.teleToLocation(getX, getY, location.getZ(), 20);
+			}
+			Broadcast.announceToOnlinePlayers("The pvp area was changed. Next random pvp area will be change after " + ZONETIME +  " minute(s).", true);
+		}
+	}
+	
+	public Location getRandomZone()
+	{
+		int random = Rnd.get(ZONES.length - 1);
+		
+		return CURRENT_ZONE = new Location(ZONES[random][0], ZONES[random][1], ZONES[random][2]);
+	}
+	
+	public Location getCurrentZone()
+	{
+		return CURRENT_ZONE;
+	}
+	
+	public static ZoneRandom getInstance()
+	{
+		return SingletonHolder._instance;
+	}
+	
+	private static class SingletonHolder
+	{
+		protected static final ZoneRandom _instance = new ZoneRandom();
+	}
+}

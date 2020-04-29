@@ -1,0 +1,36 @@
+package net.sf.l2j.gameserver.handler.itemhandlers;
+
+import net.sf.l2j.Config;
+import net.sf.l2j.gameserver.handler.IItemHandler;
+import net.sf.l2j.gameserver.model.actor.Playable;
+import net.sf.l2j.gameserver.model.actor.instance.Player;
+import net.sf.l2j.gameserver.model.item.instance.ItemInstance;
+import net.sf.l2j.gameserver.network.SystemMessageId;
+
+/**
+ * @author Baggos
+ */
+public class ClanItem implements IItemHandler
+{
+	@Override
+	public void useItem(Playable playable, ItemInstance item, boolean forceUse)
+	{
+		if (!(playable instanceof Player))
+			return;
+		Player player = (Player) playable;
+		if (player.getClan() == null)
+		{
+			player.sendPacket(SystemMessageId.YOU_ARE_NOT_A_CLAN_MEMBER);
+			return;
+		}
+		if (!player.isClanLeader())
+		{
+			player.sendPacket(SystemMessageId.NOT_AUTHORIZED_TO_BESTOW_RIGHTS);
+			return;
+		}
+		player.getClan().addReputationScore(Config.CLANREPS);
+		player.getClan().broadcastClanStatus();
+		player.sendMessage("Your clan reputation score has been increased.");
+		playable.destroyItem("Consume", item.getObjectId(), 1, null, false);
+	}
+}

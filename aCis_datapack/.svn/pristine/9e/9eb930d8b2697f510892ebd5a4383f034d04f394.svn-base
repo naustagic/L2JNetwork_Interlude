@@ -1,0 +1,70 @@
+<html>
+<title>
+Chance Skills
+</title>
+<body>
+
+<br>
+<center>
+<table>
+<tr>
+     <td width=32 height=34><img src=icon.etc_alphabet_a_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_u_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_g_i00 width=32 height=32 align=center></td>
+ <td><img src="icon.etc_m_i00" width=32 height=32></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_e_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_n_i00 width=32 height=32 align=center></td>
+    <td width=32 height=34><img src=icon.etc_alphabet_t_i00 width=32 height=32 align=center></td>
+</tr>
+</table>
+</center>
+<br><br>
+<font color="FF0000">3080</font> 10 <font color="LEVEL"><font color="LEVEL">Item Skill</font></font>: Aggression   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3081</font> 10 <font color="LEVEL">Item Skill</font>: Charm   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3082</font> 10 <font color="LEVEL">Item Skill</font>: Mana Burn   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3083</font> 10 <font color="LEVEL">Item Skill</font>: Slow   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3084</font> 10 <font color="LEVEL">Item Skill</font>: Winter   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3085</font> 10 <font color="LEVEL">Item Skill</font>: Stun   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3086</font> 10 <font color="LEVEL">Item Skill</font>: Hold   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3087</font> 10 <font color="LEVEL">Item Skill</font>: Sleep   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3088</font> 10 <font color="LEVEL">Item Skill</font>: Paralyze  <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3089</font> 10 <font color="LEVEL">Item Skill</font>: Medusa   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3090</font> 10 <font color="LEVEL">Item Skill</font>: Fear   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3091</font> 10 <font color="LEVEL">Item Skill</font>: Poison   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3092</font> 10 <font color="LEVEL">Item Skill</font>: Bleed   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3093</font> 10 <font color="LEVEL">Item Skill</font>: Silence   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3094</font> 10 <font color="LEVEL">Item Skill</font>: Doom   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3095</font> 10 <font color="LEVEL">Item Skill</font>: Mana Burn   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3096</font> 10 <font color="LEVEL">Item Skill</font>: Slow   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3097</font> 10 <font color="LEVEL">Item Skill</font>: Winter   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3098</font> 10 <font color="LEVEL">Item Skill</font>: Stun   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3099</font> 10 <font color="LEVEL">Item Skill</font>: Hold   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3100</font> 10 <font color="LEVEL">Item Skill</font>: Sleep   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3101</font> 10 <font color="LEVEL">Item Skill</font>: Paralyze   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3102</font> 10 <font color="LEVEL">Item Skill</font>: Medusa   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3103</font> 10 <font color="LEVEL">Item Skill</font>: Fear   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3104</font> 10 <font color="LEVEL">Item Skill</font>: Poison   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3105</font> 10 <font color="LEVEL">Item Skill</font>: Bleed   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3106</font> 10 <font color="LEVEL">Item Skill</font>: Silence   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3107</font> 10 <font color="LEVEL">Item Skill</font>: Doom   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3108</font> 10 <font color="LEVEL">Item Skill</font>: Aggression Up   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3109</font> 10 <font color="LEVEL">Item Skill</font>: Aggression Down   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3110</font> 10 <font color="LEVEL">Item Skill</font>: Mana Burn   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3111</font> 10 <font color="LEVEL">Item Skill</font>: Slow   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3112</font> 10 <font color="LEVEL">Item Skill</font>: Winter   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3113</font> 10 <font color="LEVEL">Item Skill</font>: Stun   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3114</font> 10 <font color="LEVEL">Item Skill</font>: Hold   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3115</font> 10 <font color="LEVEL">Item Skill</font>: Sleep   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3116</font> 10 <font color="LEVEL">Item Skill</font>: Paralyze   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3117</font> 10 <font color="LEVEL">Item Skill</font>: Medusa   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3118</font> 10 <font color="LEVEL">Item Skill</font>: Fear   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3119</font> 10 <font color="LEVEL">Item Skill</font>: Poison   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3120</font> 10 <font color="LEVEL">Item Skill</font>: Bleed   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3121</font> 10 <font color="LEVEL">Item Skill</font>: Silence   <font color="00ffff">Chance</font><br1>
+<font color="FF0000">3122</font> 10 <font color="LEVEL">Item Skill</font>: Doom   <font color="00ffff">Chance</font><br1>
+<center><a action="bypass -h admin_help augchance2.htm">Page 2</a></center>
+<br1>
+<center><a action="bypass -h admin_help augskillsinfo.htm">Back</a></center>
+</center>
+</body>
+</html>

@@ -1,0 +1,13 @@
+#=============================================================
+#                     Random Zone Fight
+#=============================================================
+
+# Set your time for new random zone. Value in minutes.
+NewZoneTime = 60
+
+# Range between players when telepored to new zone.
+RangeSpawnChar = 200
+
+# NOTE: To create a new random zone location, you should go to your sources in location -- net.sf.l2j.gameserver.instancemanager.RandomZone.java
+# Example: Get a look in picture to understand what you should change. (The blue) -- http://i.imgur.com/3febvez.jpg
+# NOTE2: Do not forgot to add the zones in RandomPvPZone.xml (data/xml/zones).

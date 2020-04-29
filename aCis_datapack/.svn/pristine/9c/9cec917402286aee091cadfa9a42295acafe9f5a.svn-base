@@ -1,0 +1,124 @@
+<html><body>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=200 height=50>
+
+Warehouse Keeper Taurin:<br>
+Come to me all you who are weary and burdened!<br>Have you come to entrust your possessions?<br>
+</td>
+</tr>
+</table>
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=L2UI.MainInventory_large width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Deposit Item</font><br1>
+<font color=F2F5A9>Private Warehouse.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_DepositP" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=L2UI.MainInventory_large_click width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Withdraw Item</font><br1>
+<font color=F2F5A9>Private Warehouse.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_WithdrawP" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=L2UI.MainInventory_large width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Deposit Item</font><br1>
+<font color=F2F5A9>Clan Warehouse.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_DepositC" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=L2UI.MainInventory_large_click width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Withdraw Item</font><br1>
+<font color=F2F5A9>Clan Warehouse.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_WithdrawC" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=L2UI.MainInventory_large width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Deposit Item</font><br1>
+<font color=F2F5A9>Cargo Box Warehouse.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_DepositF" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+
+<table width=300 height=32 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=32 height=42>
+<img src=L2UI.MainInventory_large_click width=32 height=32>
+</td>
+<td fixwidth=250>
+<font color=FE642E>Withdraw Item</font><br1>
+<font color=F2F5A9>Cargo Box Warehouse.</font>
+</td>
+<td fixwidth=50>
+<button action="bypass -h npc_%objectId%_WithdrawF" width=32 height=32 fore="L2UI_CH3.Minimap.mapbutton_zoomin1" back="L2UI_CH3.Minimap.mapbutton_zoomin2">
+</td>
+</tr>
+</table>
+<table width=300 height=25 bgcolor=000000>
+<tr>
+<td fixwidth=5>
+</td>
+<td fixwidth=200 height=7>
+</td>
+</tr>
+</table>
+
+</body></html>
